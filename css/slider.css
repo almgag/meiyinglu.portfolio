@@ -87,7 +87,7 @@
 }
 .last-area{
     background-color: black;
-    background-image: url(/images/main_photo02.png);
+    background-image: url(../images/main_photo02.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
