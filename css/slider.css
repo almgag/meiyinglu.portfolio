@@ -1,0 +1,121 @@
+.description{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#DEDDE1;
+}
+.container{
+    width: fit-content;
+    color: black;
+}
+.container h2{
+    font-size: 40px;
+}
+.container p{
+    width: 100%;
+    text-align: center;
+}
+.vertical-slider__wrap{
+    width: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.vertical-area{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading-wrap{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.vertical-area h2{
+    color: white;
+    font-size: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.vertical-area h2 span{
+    display: block;
+}
+.vertical-area .img-wrap{
+    width: 70%;
+    height: 80%;
+    position: relative;
+    overflow: hidden;
+}
+.vertical-area .img-wrap .mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.1);
+    z-index: 1;
+}
+.vertical-area .img-wrap img{
+    width: 130%;
+    height: 130%;
+    object-fit: cover;
+}
+.teal{
+    background-color:black;
+}
+.maroon{
+    background-color: black;
+}
+.olive{
+    background-color: black;
+}
+.last-area{
+    background-color: black;
+    background-image: url(/images/main_photo02.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work h2{
+    color: white;
+    font-size: 70px;
+    padding-bottom: 120px;
+    
+}
+.work p{
+    color: white;
+    line-height: 40px;
+    text-align: left;
+}
+.work h2,p{
+    align-items: center;
+    letter-spacing: 3px;
+}
+.sns{
+    padding: 20px;
+    align-items: center;
+}
+.proxy{
+    position: absolute;
+    visibility: hidden;
+}
