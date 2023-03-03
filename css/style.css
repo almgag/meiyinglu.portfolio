@@ -70,15 +70,7 @@ p{
     background-repeat: no-repeat;
     background-position: 50%; 
 }
-.up-title-area{
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-.up-title-area h2{
-    color:#fff; 
-    font-size: var(--h2-font-size);
-}
+
 .image{
     width: 60%;
     position: absolute;
